@@ -9,9 +9,10 @@ import { Destaque } from './destaque/destaque';
 import { Noticia } from './noticia/noticia';
 import { Home } from './home/home';
 import { Cliente } from './cliente/cliente';
+import { Paginanaoencontrada } from './paginanaoencontrada/paginanaoencontrada';
 
 @NgModule({
-  declarations: [App, MenuSuperior, Destaque, Noticia, Home, Cliente],
+  declarations: [App, MenuSuperior, Destaque, Noticia, Home, Cliente, Paginanaoencontrada],
   imports: [BrowserModule, AppRoutingModule, NgbModule, NgbCarousel, NgbSlide],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
